@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부트스트랩</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- 합쳐지고 최소화된 최신 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <!-- 부가적인 테마 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <style>
+    .navbar{margin-bottom:0;}
+
+   .navbar a{color:#563d7c !important;}
+   .jumbotron{
+    background-color:#563d7c !important;
+    padding:60px 0 30px;
+   }
+   .inline-block{display:inline-block;}
+   .jumbotron h1{margin-bottom:30px;}
+   .jumbotron h1 span{
+     border:1px solid White;
+     border-radius: 10%;
+     padding:30px 40px;
+     color:white;
+     font-size:100px;
+   }
+   .jumbotron p{
+     font-size:20px;
+     color:white;
+     margin-bottom:20px;
+   }
+   .jumbotron p a{
+     border:1px solid White;
+     background-color:transparent !important;
+     color:white;
+   }
+
+   /* 작은 기기들 (태블릿, 768px 이상) */
+    @media (min-width:768px) {
+      .jumbotron{padding:70px 0 35px;}
+      .jumbotron h1{margin-bottom:40px;}
+      .jumbotron p{font-size:22px;margin-bottom:30px;}
+    }
+
+    /* 중간 기기들 (데스크탑, 992px 이상) */
+    @media (min-width:992px) {
+      .jumbotron{padding:80px 0 40px;}
+      .jumbotron h1{margin-bottom:50px;}
+      .jumbotron p{font-size:26px;margin-bottom:40px;}
+    }
+
+    /* 큰 기기들 (큰 데스크탑, 1200px 이상) */
+    @media (min-width:1200px) {
+      .jumbotron{padding:90px 0 45px;}
+      .jumbotron h1{margin-bottom:60px;}
+      .jumbotron p{font-size:30px;margin-bottom:50px;}
+    }
+  </style>
+  <script>
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">부트스트랩</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="#">시작하기</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">콤포넌트</a></li>
+              <li><a href="#">자바스크립트</a></li>
+              <li><a href="#">맞춤화</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">전시관</a></li>
+              <li><a href="#">블로그</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <section class="banner">
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="text-center">
+            <span class="inline-block">B</span>
+          </h1>
+          <p class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 col-lg-10 col-lg-offset-1 text-center">부트스트랩은 반응형이며 모바일 우선인 웹프로젝트 개발을 위한 가장 인기있는 HTML, CSS, JS 프레임워크입니다.</p>
+          <p class="text-center"><a class="btn btn-lg" href="#" role="button">부트스트랩 다운로드</a></p>
+        </div>
+      </div>
+    </section>
+    <section class="section01"></section>
+    <section class="section02"></section>
+    <footer></footer>
+</body>
+</html>
