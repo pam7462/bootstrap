@@ -37,14 +37,43 @@
      border:1px solid White;
      background-color:transparent !important;
      color:white;
-   }
+  }
+  h2{font-size:30px;margin:30px 0;}
+  p.large{font-size:20px;margin:20px 0;}
+  p.mediam{font-size:18px;}
+  p.small{font-size:16px;line-height:24px;}
+  .short_line{margin-top:40px;margin-bottom:50px;}
+  .thumbnail {
+    margin-bottom:40px;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    border:none;
+    border-radius:0;
+    }
+    h3{font-size:24px;margin-bottom:20px;}
+
+
+
+
+
+
 
    /* 작은 기기들 (태블릿, 768px 이상) */
     @media (min-width:768px) {
       .jumbotron{padding:70px 0 35px;}
       .jumbotron h1{margin-bottom:40px;}
       .jumbotron p{font-size:22px;margin-bottom:30px;}
+      h2{font-size:40px;margin-top:40px;}
+      p.large{font-size:22px;margin-top:30px;}
+      p.mediam{font-size:20px;}
+      p.small{font-size:18px;line-height:26px;}
+      h3{font-size:30px;margin-bottom:26px;}
     }
+
+
+
+
+
 
     /* 중간 기기들 (데스크탑, 992px 이상) */
     @media (min-width:992px) {
@@ -107,8 +136,54 @@
         </div>
       </div>
     </section>
-    <section class="section01"></section>
-    <section class="section02"></section>
+    <section class="section01">
+      <div class="container">
+        <h2 class="text-center">모든사람과 모든곳을 위해 설계되었습니다.</h2>
+        <p class="text-center large">부트스트랩은 프론트엔드 웹개발을 더 빠르고 쉽게 만들어줍니다. 모든 기술 수준의 사람들, 모든 형태의 기기들, 모든 크기의 프로젝트들을 위해 만들어졌습니다.</p>
+        <div class="row">
+          <hr class="short_line col-xs-12 col-sm-2 col-sm-offset-5">
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="thumbnail">
+              <img src="images/sass-less.png" alt="sdss-less">
+              <div class="caption">
+                <h3 class="text-center">프리프로세서</h3>
+                <p class="text-center small">부트스트랩은 평범한 CSS 로 제공합니다만, 그것의 소스코드는 2개의 인기있는 CSS 프리프로세서인 Less 와 Sass 를 사용합니다. 신속하게 프리컴파일된 CSS 로 시작하거나 소스를 빌드하세요.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="thumbnail">
+              <img src="images/devices.png" alt="devices">
+              <div class="caption">
+                <h3 class="text-center">하나의 프레임워크, 모든 기기.</h3>
+                <p class="text-center small">부트스트랩은 웹사이트와 어플리케이션을 단일 코드 베이스로 CSS 미디어 쿼리를 이용하여 휴대폰에서부터 태블릿, 데스크탑까지 쉽고 효과적으로 크기를 조절합니다.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="thumbnail">
+              <img src="images/components.png" alt="components">
+              <div class="caption">
+                <h3 class="text-center">많은 기능들</h3>
+                <p class="text-center small">부트스트랩과 함께, 보통의 HTML 요소들, 맞춤형 HTML 과 CSS 콤포넌트들, 그리고 놀라운 jQuery 플러그인들로 광범위하고 아름다운 문서들을 가질 수 있습니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <hr class="short_line col-xs-12 col-sm-2 col-sm-offset-5">
+        </div>
+        <p class="large text-center">부트스트랩은 오픈소스 입니다. 깃허브에서 호스트되고, 개발되고, 유지보수 됩니다.</p>
+        <p class="text-center">
+          <a class="btn btn-success btn-lg" href="#" role="button">깃허브 바로가기</a>
+        </p>
+      </div>
+    </section>
+    <section class="section02">
+      
+    </section>
     <footer></footer>
 </body>
 </html>
